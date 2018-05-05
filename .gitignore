@@ -11,10 +11,5 @@ tags
 dist
 build
 .hg*
-tw2core
-tw2devtools
-tw2forms
-tw2jquery
-tw2.jquery.plugins.ui
 virtualenv-*
 *.egg

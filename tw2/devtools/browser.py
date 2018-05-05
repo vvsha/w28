@@ -14,7 +14,8 @@ import sys
 import xmlrpclib
 
 import warnings
-from . import memoize
+#///vv from . import memoize
+import memoize
 import six
 
 

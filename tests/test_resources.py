@@ -1,7 +1,8 @@
 from __future__ import print_function
 import tw2.core as twc
 import tw2.jqplugins.ui
-from . import testapi
+///vv from . import testapis
+import testapis
 
 from nose.tools import eq_
 
@@ -24,11 +25,11 @@ mw = twc.make_middleware(simple_app)
 
 
 def setup():
-    testapi.setup()
+    testapis.setup()
 
 
 def test_weird_case_for_zykes():
-    rl = testapi.request(1, mw)
+    rl = testapis.request(1, mw)
     tw2.jqplugins.ui.jquery_ui.inject()
 
     rl = twc.core.request_local()
